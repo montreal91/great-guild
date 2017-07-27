@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title id="mg-title"></title>
+  <script type="text/javascript" src="bio.json"></script>
+  <script type="text/javascript" src="magic.js"></script>
+  <meta charset="utf-8">
+</head>
+<body onload="mg_load_content();">
+  <h1><div id="mg-archmage-header"></div></h1>
+  <div>
+    <button id="mg-previous-chapter" onclick="mg_previous_chapter();"><< Chapter</button>
+    <button id="mg-next-chapter" onclick="mg_next_chapter();">Chapter >></button>
+  </div>
+  <h3><div id="mg-chapter-header"></div></h3>
+
+  <div id="mg-book-page"></div>
+
+  <button id="mg-previous-block" onclick="mg_previous_block();"><< Block</button>
+  <!-- <span id="mg-chapter-name"></span> -->
+  <span id="mg-block-number"></span>
+  <button id="mg-next-block" onclick="mg_next_block();">Block >></button>
+</body>
+</html>
